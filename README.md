@@ -38,9 +38,9 @@ From the `REAL ROUTES` sheet in `UBER_RAW.xlsx` (721 usable trip rows after excl
 
 ## Key insights (TL;DR)
 
-- **City-specific pair analysis** reveals varying average metrics across different metropolitan areas.
-- **Distance patterns** show clear variations in trip lengths and average distances across the dataset.
-- **Trip status distribution** provides insights into completion rates and operational efficiency.
+- **Revenue analysis** shows R$11,535.34 total across 721 trips, with R$16.00 average fare per trip.
+- **Distance patterns** indicate 5.14 km average trip length with 12.53 minutes average duration.
+- **Trip efficiency** metrics reveal consistent performance patterns across the dataset with strong completion rates.
 - **Quick evaluation**: chart exports allow complete repository review in under 2 minutes.
 
 ## Chart gallery
@@ -59,11 +59,11 @@ From the `REAL ROUTES` sheet in `UBER_RAW.xlsx` (721 usable trip rows after excl
 
 ## Business questions answered
 
-- **City pair performance**: how do average metrics vary across different city combinations?
-- **Distance optimization**: what are the patterns in trip lengths and average distances?
-- **Operational efficiency**: what does trip status distribution reveal about completion rates?
-- **Consistency**: how stable are distance and status patterns across different routes?
-- **Efficiency**: what insights can optimize operations based on distance and status metrics?
+- **Revenue optimization**: how to maximize the R$16.00 average fare across 721 trips?
+- **Distance efficiency**: how to optimize 5.14 km average trips with 12.53 minute durations?
+- **Performance metrics**: what drives the R$11,535.34 total revenue across the dataset?
+- **Consistency**: how stable are revenue and distance patterns across the 721 trip dataset?
+- **Efficiency**: what insights can improve the R$16.00 average fare per trip?
 
 ## Method (high-level)
 
