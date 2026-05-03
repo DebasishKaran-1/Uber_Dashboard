@@ -51,7 +51,7 @@ From the `REAL ROUTES` sheet in `UBER_RAW.xlsx` (721 usable trip rows after excl
 
 ### 2) Distance average distance
 
-<img width="900" alt="Distance average distance" src="./charts/Dist_Avg_Diastance.png" />
+<img width="900" alt="Distance average distance" src="./charts/Dist_Avg_Distance.png" />
 
 ### 3) Status by trip
 
