@@ -25,7 +25,7 @@ A comprehensive, dashboard-driven analysis of Uber trip activity designed to ide
 
 ## Quick preview (what recruiters will scan)
 
-<img width="1260" alt="Dashboard preview" src="./charts/Dashboard01.png" />
+<img width="1260" alt="Dashboard preview" src="./charts/Dashboard2.png" />
 
 ## Dataset snapshot
 
@@ -38,32 +38,32 @@ From the `REAL ROUTES` sheet in `UBER_RAW.xlsx` (721 usable trip rows after excl
 
 ## Key insights (TL;DR)
 
-- **Peak demand periods** occur during daytime and early evening hours, maintaining consistently high trip volumes.
-- **`Comfort` category leads** the dataset in both trip frequency and revenue generation.
-- **Revenue concentrates on recurring routes**, indicating strong neighborhood-based demand patterns.
+- **City-specific pair analysis** reveals varying average metrics across different metropolitan areas.
+- **Distance patterns** show clear variations in trip lengths and average distances across the dataset.
+- **Trip status distribution** provides insights into completion rates and operational efficiency.
 - **Quick evaluation**: chart exports allow complete repository review in under 2 minutes.
 
 ## Chart gallery
 
-### 1) Hourly revenue vs. trip volume
+### 1) Average pair by city
 
-<img width="1000" alt="Hourly revenue and trips" src="./charts/hourly_revenue_trips.png" />
+<img width="1000" alt="Average pair by city" src="./charts/Avg_pair_by_city.png" />
 
-### 2) Revenue by ride category
+### 2) Distance average distance
 
-<img width="900" alt="Revenue by ride category" src="./charts/revenue_by_category.png" />
+<img width="900" alt="Distance average distance" src="./charts/Dist_Avg_Diastance.png" />
 
-### 3) Top routes by revenue
+### 3) Status by trip
 
-<img width="1000" alt="Top routes by revenue" src="./charts/top_routes_revenue.png" />
+<img width="1000" alt="Status by trip" src="./charts/Status_by_trip.png" />
 
 ## Business questions answered
 
-- **When to drive**: which hours combine high revenue with high trip volume?
-- **What to drive**: which ride categories contribute most to earnings?
-- **Where value concentrates**: which pickup → dropoff pairs generate the strongest returns?
-- **Consistency**: how stable are patterns across seasons and neighborhoods?
-- **Efficiency**: where can time and distance be optimized without reducing revenue?
+- **City pair performance**: how do average metrics vary across different city combinations?
+- **Distance optimization**: what are the patterns in trip lengths and average distances?
+- **Operational efficiency**: what does trip status distribution reveal about completion rates?
+- **Consistency**: how stable are distance and status patterns across different routes?
+- **Efficiency**: what insights can optimize operations based on distance and status metrics?
 
 ## Method (high-level)
 
